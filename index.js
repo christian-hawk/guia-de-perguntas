@@ -15,6 +15,7 @@ connection
     .catch((msgErro) => {
         console.log(msgErro)
     })
+    
 // use ejs como view engine
 
 app.set('view engine','ejs')
